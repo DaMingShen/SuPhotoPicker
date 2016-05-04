@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B5834411C29978C00C86D30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5834401C29978C00C86D30 /* main.m */; };
+		2B5834441C29978C00C86D30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5834431C29978C00C86D30 /* AppDelegate.m */; };
+		2B5834471C29978C00C86D30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5834461C29978C00C86D30 /* ViewController.m */; };
+		2B58344A1C29978D00C86D30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5834481C29978D00C86D30 /* Main.storyboard */; };
+		2B58344C1C29978D00C86D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B58344B1C29978D00C86D30 /* Assets.xcassets */; };
+		2B58344F1C29978D00C86D30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B58344D1C29978D00C86D30 /* LaunchScreen.storyboard */; };
+		2B5834861C2998B600C86D30 /* img_add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5834851C2998B600C86D30 /* img_add@2x.png */; settings = {ASSET_TAGS = (); }; };
+		2B5E567A1C299EE000A579DE /* NSString+SU.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E56541C299EE000A579DE /* NSString+SU.m */; settings = {ASSET_TAGS = (); }; };
+		2B5E567C1C299EE000A579DE /* UIButton+SU.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E56581C299EE000A579DE /* UIButton+SU.m */; settings = {ASSET_TAGS = (); }; };
+		2B5E567D1C299EE000A579DE /* UIView+SuAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E565A1C299EE000A579DE /* UIView+SuAnimation.m */; settings = {ASSET_TAGS = (); }; };
+		2B5E567E1C299EE000A579DE /* SuPhotoBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E565D1C299EE000A579DE /* SuPhotoBaseController.m */; settings = {ASSET_TAGS = (); }; };
+		2B5E567F1C299EE000A579DE /* SuPhotoAblumList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E565F1C299EE000A579DE /* SuPhotoAblumList.m */; settings = {ASSET_TAGS = (); }; };
+		2B5E56801C299EE000A579DE /* SuPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E56611C299EE000A579DE /* SuPhotoBrowser.m */; settings = {ASSET_TAGS = (); }; };
+		2B5E56811C299EE000A579DE /* SuPhotoBrowser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E56621C299EE000A579DE /* SuPhotoBrowser.xib */; settings = {ASSET_TAGS = (); }; };
+		2B5E56821C299EE000A579DE /* SuPhotoPreviewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E56641C299EE000A579DE /* SuPhotoPreviewer.m */; settings = {ASSET_TAGS = (); }; };
+		2B5E56831C299EE000A579DE /* SuPhotoPreviewer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E56651C299EE000A579DE /* SuPhotoPreviewer.xib */; settings = {ASSET_TAGS = (); }; };
+		2B5E56841C299EE000A579DE /* SuAblumInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E56681C299EE000A579DE /* SuAblumInfo.m */; settings = {ASSET_TAGS = (); }; };
+		2B5E56851C299EE000A579DE /* SuPhoto_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E566A1C299EE000A579DE /* SuPhoto_circle@2x.png */; settings = {ASSET_TAGS = (); }; };
+		2B5E56861C299EE000A579DE /* SuPhoto_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E566B1C299EE000A579DE /* SuPhoto_selected@2x.png */; settings = {ASSET_TAGS = (); }; };
+		2B5E56871C299EE000A579DE /* SuPhoto_unselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E566C1C299EE000A579DE /* SuPhoto_unselected@2x.png */; settings = {ASSET_TAGS = (); }; };
+		2B5E56881C299EE000A579DE /* SuPhotoPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E566E1C299EE000A579DE /* SuPhotoPicker.m */; settings = {ASSET_TAGS = (); }; };
+		2B5E56891C299EE000A579DE /* SuPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E56711C299EE000A579DE /* SuPhotoManager.m */; settings = {ASSET_TAGS = (); }; };
+		2B5E568A1C299EE000A579DE /* SuPhotoAblumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E56751C299EE000A579DE /* SuPhotoAblumCell.m */; settings = {ASSET_TAGS = (); }; };
+		2B5E568B1C299EE000A579DE /* SuPhotoAblumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E56761C299EE000A579DE /* SuPhotoAblumCell.xib */; settings = {ASSET_TAGS = (); }; };
+		2B5E568C1C299EE000A579DE /* SuPhotoBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E56781C299EE000A579DE /* SuPhotoBrowserCell.m */; settings = {ASSET_TAGS = (); }; };
+		2B5E568D1C299EE000A579DE /* SuPhotoBrowserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E56791C299EE000A579DE /* SuPhotoBrowserCell.xib */; settings = {ASSET_TAGS = (); }; };
+		2B5E56901C29A09700A579DE /* UIView+SU.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E568F1C29A09700A579DE /* UIView+SU.m */; settings = {ASSET_TAGS = (); }; };
+		2B5E56961C29A99E00A579DE /* UIView+SuLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E56951C29A99E00A579DE /* UIView+SuLine.m */; settings = {ASSET_TAGS = (); }; };
+		2B5E56991C29AD1500A579DE /* SuMessageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E56981C29AD1500A579DE /* SuMessageTool.m */; settings = {ASSET_TAGS = (); }; };
+		B1B9A2D21CD8349C004A46EF /* SuPhotoCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B9A2D11CD8349C004A46EF /* SuPhotoCenter.m */; settings = {ASSET_TAGS = (); }; };
+		B1B9A2D51CD84F02004A46EF /* UIImage+SU.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B9A2D41CD84F02004A46EF /* UIImage+SU.m */; settings = {ASSET_TAGS = (); }; };
+		B1B9A2D81CD89E0C004A46EF /* SuBack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B9A2D61CD89E0C004A46EF /* SuBack@3x.png */; settings = {ASSET_TAGS = (); }; };
+		B1B9A2D91CD89E0C004A46EF /* SuBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B9A2D71CD89E0C004A46EF /* SuBack@2x.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B58343C1C29978C00C86D30 /* SuPhotoPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuPhotoPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5834401C29978C00C86D30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B5834421C29978C00C86D30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B5834431C29978C00C86D30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B5834451C29978C00C86D30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B5834461C29978C00C86D30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B5834491C29978D00C86D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B58344B1C29978D00C86D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B58344E1C29978D00C86D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B5834501C29978D00C86D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5834851C2998B600C86D30 /* img_add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_add@2x.png"; sourceTree = "<group>"; };
+		2B5E56531C299EE000A579DE /* NSString+SU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SU.h"; sourceTree = "<group>"; };
+		2B5E56541C299EE000A579DE /* NSString+SU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SU.m"; sourceTree = "<group>"; };
+		2B5E56571C299EE000A579DE /* UIButton+SU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SU.h"; sourceTree = "<group>"; };
+		2B5E56581C299EE000A579DE /* UIButton+SU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SU.m"; sourceTree = "<group>"; };
+		2B5E56591C299EE000A579DE /* UIView+SuAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SuAnimation.h"; sourceTree = "<group>"; };
+		2B5E565A1C299EE000A579DE /* UIView+SuAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SuAnimation.m"; sourceTree = "<group>"; };
+		2B5E565C1C299EE000A579DE /* SuPhotoBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuPhotoBaseController.h; sourceTree = "<group>"; };
+		2B5E565D1C299EE000A579DE /* SuPhotoBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuPhotoBaseController.m; sourceTree = "<group>"; };
+		2B5E565E1C299EE000A579DE /* SuPhotoAblumList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuPhotoAblumList.h; sourceTree = "<group>"; };
+		2B5E565F1C299EE000A579DE /* SuPhotoAblumList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuPhotoAblumList.m; sourceTree = "<group>"; };
+		2B5E56601C299EE000A579DE /* SuPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuPhotoBrowser.h; sourceTree = "<group>"; };
+		2B5E56611C299EE000A579DE /* SuPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuPhotoBrowser.m; sourceTree = "<group>"; };
+		2B5E56621C299EE000A579DE /* SuPhotoBrowser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuPhotoBrowser.xib; sourceTree = "<group>"; };
+		2B5E56631C299EE000A579DE /* SuPhotoPreviewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuPhotoPreviewer.h; sourceTree = "<group>"; };
+		2B5E56641C299EE000A579DE /* SuPhotoPreviewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuPhotoPreviewer.m; sourceTree = "<group>"; };
+		2B5E56651C299EE000A579DE /* SuPhotoPreviewer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuPhotoPreviewer.xib; sourceTree = "<group>"; };
+		2B5E56671C299EE000A579DE /* SuAblumInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuAblumInfo.h; sourceTree = "<group>"; };
+		2B5E56681C299EE000A579DE /* SuAblumInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuAblumInfo.m; sourceTree = "<group>"; };
+		2B5E566A1C299EE000A579DE /* SuPhoto_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SuPhoto_circle@2x.png"; sourceTree = "<group>"; };
+		2B5E566B1C299EE000A579DE /* SuPhoto_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SuPhoto_selected@2x.png"; sourceTree = "<group>"; };
+		2B5E566C1C299EE000A579DE /* SuPhoto_unselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SuPhoto_unselected@2x.png"; sourceTree = "<group>"; };
+		2B5E566D1C299EE000A579DE /* SuPhotoPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuPhotoPicker.h; sourceTree = "<group>"; };
+		2B5E566E1C299EE000A579DE /* SuPhotoPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuPhotoPicker.m; sourceTree = "<group>"; };
+		2B5E56701C299EE000A579DE /* SuPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuPhotoManager.h; sourceTree = "<group>"; };
+		2B5E56711C299EE000A579DE /* SuPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuPhotoManager.m; sourceTree = "<group>"; };
+		2B5E56721C299EE000A579DE /* SuPhotoHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuPhotoHeader.h; sourceTree = "<group>"; };
+		2B5E56741C299EE000A579DE /* SuPhotoAblumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuPhotoAblumCell.h; sourceTree = "<group>"; };
+		2B5E56751C299EE000A579DE /* SuPhotoAblumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuPhotoAblumCell.m; sourceTree = "<group>"; };
+		2B5E56761C299EE000A579DE /* SuPhotoAblumCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuPhotoAblumCell.xib; sourceTree = "<group>"; };
+		2B5E56771C299EE000A579DE /* SuPhotoBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuPhotoBrowserCell.h; sourceTree = "<group>"; };
+		2B5E56781C299EE000A579DE /* SuPhotoBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuPhotoBrowserCell.m; sourceTree = "<group>"; };
+		2B5E56791C299EE000A579DE /* SuPhotoBrowserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuPhotoBrowserCell.xib; sourceTree = "<group>"; };
+		2B5E568E1C29A09700A579DE /* UIView+SU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SU.h"; sourceTree = "<group>"; };
+		2B5E568F1C29A09700A579DE /* UIView+SU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SU.m"; sourceTree = "<group>"; };
+		2B5E56941C29A99E00A579DE /* UIView+SuLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SuLine.h"; sourceTree = "<group>"; };
+		2B5E56951C29A99E00A579DE /* UIView+SuLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SuLine.m"; sourceTree = "<group>"; };
+		2B5E56971C29AD1500A579DE /* SuMessageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuMessageTool.h; sourceTree = "<group>"; };
+		2B5E56981C29AD1500A579DE /* SuMessageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuMessageTool.m; sourceTree = "<group>"; };
+		B1B9A2D01CD8349C004A46EF /* SuPhotoCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuPhotoCenter.h; sourceTree = "<group>"; };
+		B1B9A2D11CD8349C004A46EF /* SuPhotoCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuPhotoCenter.m; sourceTree = "<group>"; };
+		B1B9A2D31CD84F02004A46EF /* UIImage+SU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SU.h"; sourceTree = "<group>"; };
+		B1B9A2D41CD84F02004A46EF /* UIImage+SU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SU.m"; sourceTree = "<group>"; };
+		B1B9A2D61CD89E0C004A46EF /* SuBack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SuBack@3x.png"; sourceTree = "<group>"; };
+		B1B9A2D71CD89E0C004A46EF /* SuBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SuBack@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B5834391C29978C00C86D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B5834331C29978C00C86D30 = {
+			isa = PBXGroup;
+			children = (
+				2B58343E1C29978C00C86D30 /* SuPhotoPickerDemo */,
+				2B58343D1C29978C00C86D30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B58343D1C29978C00C86D30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B58343C1C29978C00C86D30 /* SuPhotoPickerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B58343E1C29978C00C86D30 /* SuPhotoPickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2B5E56511C299EE000A579DE /* SuPhotoPicker */,
+				2B5834421C29978C00C86D30 /* AppDelegate.h */,
+				2B5834431C29978C00C86D30 /* AppDelegate.m */,
+				2B5834451C29978C00C86D30 /* ViewController.h */,
+				2B5834461C29978C00C86D30 /* ViewController.m */,
+				2B5834851C2998B600C86D30 /* img_add@2x.png */,
+				2B5834481C29978D00C86D30 /* Main.storyboard */,
+				2B58344B1C29978D00C86D30 /* Assets.xcassets */,
+				2B58344D1C29978D00C86D30 /* LaunchScreen.storyboard */,
+				2B5834501C29978D00C86D30 /* Info.plist */,
+				2B58343F1C29978C00C86D30 /* Supporting Files */,
+			);
+			path = SuPhotoPickerDemo;
+			sourceTree = "<group>";
+		};
+		2B58343F1C29978C00C86D30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B5834401C29978C00C86D30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B5E56511C299EE000A579DE /* SuPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				2B5E566D1C299EE000A579DE /* SuPhotoPicker.h */,
+				2B5E566E1C299EE000A579DE /* SuPhotoPicker.m */,
+				2B5E565B1C299EE000A579DE /* Controller */,
+				2B5E56731C299EE000A579DE /* View */,
+				2B5E56661C299EE000A579DE /* Model */,
+				2B5E566F1C299EE000A579DE /* Manager */,
+				2B5E56521C299EE000A579DE /* Category */,
+				2B5E56691C299EE000A579DE /* Resource */,
+			);
+			path = SuPhotoPicker;
+			sourceTree = "<group>";
+		};
+		2B5E56521C299EE000A579DE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2B5E568E1C29A09700A579DE /* UIView+SU.h */,
+				2B5E568F1C29A09700A579DE /* UIView+SU.m */,
+				B1B9A2D31CD84F02004A46EF /* UIImage+SU.h */,
+				B1B9A2D41CD84F02004A46EF /* UIImage+SU.m */,
+				2B5E56531C299EE000A579DE /* NSString+SU.h */,
+				2B5E56541C299EE000A579DE /* NSString+SU.m */,
+				2B5E56941C29A99E00A579DE /* UIView+SuLine.h */,
+				2B5E56951C29A99E00A579DE /* UIView+SuLine.m */,
+				2B5E56571C299EE000A579DE /* UIButton+SU.h */,
+				2B5E56581C299EE000A579DE /* UIButton+SU.m */,
+				2B5E56591C299EE000A579DE /* UIView+SuAnimation.h */,
+				2B5E565A1C299EE000A579DE /* UIView+SuAnimation.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2B5E565B1C299EE000A579DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B5E56721C299EE000A579DE /* SuPhotoHeader.h */,
+				2B5E565C1C299EE000A579DE /* SuPhotoBaseController.h */,
+				2B5E565D1C299EE000A579DE /* SuPhotoBaseController.m */,
+				2B5E565E1C299EE000A579DE /* SuPhotoAblumList.h */,
+				2B5E565F1C299EE000A579DE /* SuPhotoAblumList.m */,
+				2B5E56601C299EE000A579DE /* SuPhotoBrowser.h */,
+				2B5E56611C299EE000A579DE /* SuPhotoBrowser.m */,
+				2B5E56621C299EE000A579DE /* SuPhotoBrowser.xib */,
+				2B5E56631C299EE000A579DE /* SuPhotoPreviewer.h */,
+				2B5E56641C299EE000A579DE /* SuPhotoPreviewer.m */,
+				2B5E56651C299EE000A579DE /* SuPhotoPreviewer.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B5E56661C299EE000A579DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B5E56671C299EE000A579DE /* SuAblumInfo.h */,
+				2B5E56681C299EE000A579DE /* SuAblumInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B5E56691C299EE000A579DE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B1B9A2D61CD89E0C004A46EF /* SuBack@3x.png */,
+				B1B9A2D71CD89E0C004A46EF /* SuBack@2x.png */,
+				2B5E566A1C299EE000A579DE /* SuPhoto_circle@2x.png */,
+				2B5E566B1C299EE000A579DE /* SuPhoto_selected@2x.png */,
+				2B5E566C1C299EE000A579DE /* SuPhoto_unselected@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		2B5E566F1C299EE000A579DE /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				2B5E56701C299EE000A579DE /* SuPhotoManager.h */,
+				2B5E56711C299EE000A579DE /* SuPhotoManager.m */,
+				B1B9A2D01CD8349C004A46EF /* SuPhotoCenter.h */,
+				B1B9A2D11CD8349C004A46EF /* SuPhotoCenter.m */,
+				2B5E56971C29AD1500A579DE /* SuMessageTool.h */,
+				2B5E56981C29AD1500A579DE /* SuMessageTool.m */,
+			);
+			name = Manager;
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		2B5E56731C299EE000A579DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B5E56741C299EE000A579DE /* SuPhotoAblumCell.h */,
+				2B5E56751C299EE000A579DE /* SuPhotoAblumCell.m */,
+				2B5E56761C299EE000A579DE /* SuPhotoAblumCell.xib */,
+				2B5E56771C299EE000A579DE /* SuPhotoBrowserCell.h */,
+				2B5E56781C299EE000A579DE /* SuPhotoBrowserCell.m */,
+				2B5E56791C299EE000A579DE /* SuPhotoBrowserCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B58343B1C29978C00C86D30 /* SuPhotoPickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5834531C29978D00C86D30 /* Build configuration list for PBXNativeTarget "SuPhotoPickerDemo" */;
+			buildPhases = (
+				2B5834381C29978C00C86D30 /* Sources */,
+				2B5834391C29978C00C86D30 /* Frameworks */,
+				2B58343A1C29978C00C86D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuPhotoPickerDemo;
+			productName = SuPhotoPickerDemo;
+			productReference = 2B58343C1C29978C00C86D30 /* SuPhotoPickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B5834341C29978C00C86D30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = KevinSu;
+				TargetAttributes = {
+					2B58343B1C29978C00C86D30 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 2B5834371C29978C00C86D30 /* Build configuration list for PBXProject "SuPhotoPickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B5834331C29978C00C86D30;
+			productRefGroup = 2B58343D1C29978C00C86D30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B58343B1C29978C00C86D30 /* SuPhotoPickerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B58343A1C29978C00C86D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5834861C2998B600C86D30 /* img_add@2x.png in Resources */,
+				2B58344F1C29978D00C86D30 /* LaunchScreen.storyboard in Resources */,
+				2B58344C1C29978D00C86D30 /* Assets.xcassets in Resources */,
+				2B5E56811C299EE000A579DE /* SuPhotoBrowser.xib in Resources */,
+				2B5E56871C299EE000A579DE /* SuPhoto_unselected@2x.png in Resources */,
+				2B5E568D1C299EE000A579DE /* SuPhotoBrowserCell.xib in Resources */,
+				B1B9A2D91CD89E0C004A46EF /* SuBack@2x.png in Resources */,
+				2B5E56831C299EE000A579DE /* SuPhotoPreviewer.xib in Resources */,
+				2B5E56851C299EE000A579DE /* SuPhoto_circle@2x.png in Resources */,
+				2B5E56861C299EE000A579DE /* SuPhoto_selected@2x.png in Resources */,
+				2B5E568B1C299EE000A579DE /* SuPhotoAblumCell.xib in Resources */,
+				B1B9A2D81CD89E0C004A46EF /* SuBack@3x.png in Resources */,
+				2B58344A1C29978D00C86D30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B5834381C29978C00C86D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5834471C29978C00C86D30 /* ViewController.m in Sources */,
+				2B5E56841C299EE000A579DE /* SuAblumInfo.m in Sources */,
+				B1B9A2D21CD8349C004A46EF /* SuPhotoCenter.m in Sources */,
+				2B5E568A1C299EE000A579DE /* SuPhotoAblumCell.m in Sources */,
+				2B5E567E1C299EE000A579DE /* SuPhotoBaseController.m in Sources */,
+				2B5E567C1C299EE000A579DE /* UIButton+SU.m in Sources */,
+				2B5E568C1C299EE000A579DE /* SuPhotoBrowserCell.m in Sources */,
+				2B5E56901C29A09700A579DE /* UIView+SU.m in Sources */,
+				2B5E567A1C299EE000A579DE /* NSString+SU.m in Sources */,
+				2B5E56961C29A99E00A579DE /* UIView+SuLine.m in Sources */,
+				2B5E567D1C299EE000A579DE /* UIView+SuAnimation.m in Sources */,
+				2B5E56891C299EE000A579DE /* SuPhotoManager.m in Sources */,
+				2B5834441C29978C00C86D30 /* AppDelegate.m in Sources */,
+				2B5E56881C299EE000A579DE /* SuPhotoPicker.m in Sources */,
+				2B5834411C29978C00C86D30 /* main.m in Sources */,
+				2B5E56801C299EE000A579DE /* SuPhotoBrowser.m in Sources */,
+				2B5E56991C29AD1500A579DE /* SuMessageTool.m in Sources */,
+				2B5E56821C299EE000A579DE /* SuPhotoPreviewer.m in Sources */,
+				2B5E567F1C299EE000A579DE /* SuPhotoAblumList.m in Sources */,
+				B1B9A2D51CD84F02004A46EF /* UIImage+SU.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B5834481C29978D00C86D30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B5834491C29978D00C86D30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B58344D1C29978D00C86D30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B58344E1C29978D00C86D30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B5834511C29978D00C86D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B5834521C29978D00C86D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B5834541C29978D00C86D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuPhotoPickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinSu.SuPhotoPickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B5834551C29978D00C86D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuPhotoPickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinSu.SuPhotoPickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B5834371C29978C00C86D30 /* Build configuration list for PBXProject "SuPhotoPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5834511C29978D00C86D30 /* Debug */,
+				2B5834521C29978D00C86D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B5834531C29978D00C86D30 /* Build configuration list for PBXNativeTarget "SuPhotoPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5834541C29978D00C86D30 /* Debug */,
+				2B5834551C29978D00C86D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B5834341C29978C00C86D30 /* Project object */;
+}

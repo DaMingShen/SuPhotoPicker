@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SuPhotoBrowser">
+            <connections>
+                <outlet property="bottomView" destination="XHt-WQ-aBY" id="ogD-xj-WX4"/>
+                <outlet property="bottomViewCover" destination="poJ-7j-a8r" id="nFh-r1-U9G"/>
+                <outlet property="comBtn" destination="ftB-xC-oub" id="ld7-gE-lxC"/>
+                <outlet property="isOriginalBtn" destination="xeP-P8-CY6" id="TTO-s6-057"/>
+                <outlet property="view" destination="iN0-l3-epB" id="6Na-gW-1Oa"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="SuPhotoBrowser">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XHt-WQ-aBY" userLabel="bottomView">
+                    <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GcP-2W-zys" userLabel="sendView">
+                            <rect key="frame" x="291" y="5" width="70" height="30"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="完成" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftB-xC-oub">
+                                    <rect key="frame" x="0.0" y="0.0" width="70" height="30"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8T-bb-iar" userLabel="send">
+                                    <rect key="frame" x="0.0" y="0.0" width="70" height="30"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <connections>
+                                        <action selector="senBtnAction:" destination="-1" eventType="touchUpInside" id="xdU-tl-URf"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="ftB-xC-oub" secondAttribute="bottom" id="8td-ry-uvj"/>
+                                <constraint firstItem="ftB-xC-oub" firstAttribute="leading" secondItem="GcP-2W-zys" secondAttribute="leading" id="923-vD-PjL"/>
+                                <constraint firstAttribute="height" constant="30" id="ERt-QD-S1D"/>
+                                <constraint firstItem="G8T-bb-iar" firstAttribute="top" secondItem="GcP-2W-zys" secondAttribute="top" id="K9l-1T-m1z"/>
+                                <constraint firstItem="G8T-bb-iar" firstAttribute="leading" secondItem="GcP-2W-zys" secondAttribute="leading" id="Y9P-0F-7kd"/>
+                                <constraint firstAttribute="bottom" secondItem="G8T-bb-iar" secondAttribute="bottom" id="bVq-jo-MKd"/>
+                                <constraint firstAttribute="trailing" secondItem="G8T-bb-iar" secondAttribute="trailing" id="cK8-Q6-92E"/>
+                                <constraint firstAttribute="trailing" secondItem="ftB-xC-oub" secondAttribute="trailing" id="m1O-zj-I0y"/>
+                                <constraint firstItem="ftB-xC-oub" firstAttribute="top" secondItem="GcP-2W-zys" secondAttribute="top" id="pe1-cl-F1J"/>
+                                <constraint firstAttribute="width" constant="70" id="vnT-ca-Ivf"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RFx-x3-O9O" userLabel="infoVIew">
+                            <rect key="frame" x="15" y="3" width="84" height="34"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xeP-P8-CY6" userLabel="changeSize">
+                                    <rect key="frame" x="9" y="7" width="20" height="20"/>
+                                    <state key="normal" image="SuPhoto_circle.png"/>
+                                    <state key="selected" image="SuPhoto_selected.png"/>
+                                    <connections>
+                                        <action selector="changeSizeAction:" destination="-1" eventType="touchUpInside" id="Yef-pC-99o"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="原图" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3kc-tN-ZFY">
+                                    <rect key="frame" x="35" y="6" width="41" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="34" id="4tH-z9-rFz"/>
+                                <constraint firstAttribute="width" constant="84" id="UTi-c2-nJI"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.023529411760000001" green="0.69803921570000005" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="8Ap-8v-8Nd"/>
+                        <constraint firstAttribute="bottom" secondItem="GcP-2W-zys" secondAttribute="bottom" constant="5" id="A9e-3H-L4z"/>
+                        <constraint firstItem="RFx-x3-O9O" firstAttribute="leading" secondItem="XHt-WQ-aBY" secondAttribute="leading" constant="15" id="EBS-MU-r9D"/>
+                        <constraint firstAttribute="trailing" secondItem="GcP-2W-zys" secondAttribute="trailing" constant="14" id="SWp-lx-m7i"/>
+                        <constraint firstItem="RFx-x3-O9O" firstAttribute="top" secondItem="XHt-WQ-aBY" secondAttribute="top" constant="3" id="tqF-pQ-mei"/>
+                    </constraints>
+                </view>
+                <view hidden="YES" alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="poJ-7j-a8r" userLabel="遮罩层">
+                    <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="r4h-VQ-vcC"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="XHt-WQ-aBY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="5ZY-cI-rjd"/>
+                <constraint firstAttribute="bottom" secondItem="XHt-WQ-aBY" secondAttribute="bottom" id="Juj-Zw-A7e"/>
+                <constraint firstItem="poJ-7j-a8r" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="bFm-Er-BJw"/>
+                <constraint firstAttribute="trailing" secondItem="XHt-WQ-aBY" secondAttribute="trailing" id="bno-ZS-XUK"/>
+                <constraint firstAttribute="trailing" secondItem="poJ-7j-a8r" secondAttribute="trailing" id="glb-HN-Ftv"/>
+                <constraint firstAttribute="bottom" secondItem="poJ-7j-a8r" secondAttribute="bottom" id="jz8-UO-Uhz"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="SuPhoto_circle.png" width="24" height="24"/>
+        <image name="SuPhoto_selected.png" width="24" height="24"/>
+    </resources>
+</document>

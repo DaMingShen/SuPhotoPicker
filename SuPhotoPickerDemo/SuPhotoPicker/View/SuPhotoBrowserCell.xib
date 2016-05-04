@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SuPhotoBrowserCell">
+            <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1oT-JI-9p0">
+                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                        <gestureRecognizers/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4F-4C-0R9">
+                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                        <connections>
+                            <action selector="imageTapAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="z6i-Nc-MI2"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Eu-wk-kiK">
+                        <rect key="frame" x="45" y="5" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="TXo-wI-Xct"/>
+                            <constraint firstAttribute="width" constant="25" id="hBu-Ni-0IY"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="SuPhoto_unselected.png"/>
+                        <state key="selected" backgroundImage="SuPhoto_selected.png"/>
+                        <connections>
+                            <action selector="selectBtnAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="kbf-7p-Gr0"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="e4F-4C-0R9" secondAttribute="bottom" id="3jE-x0-eJL"/>
+                <constraint firstAttribute="trailing" secondItem="1oT-JI-9p0" secondAttribute="trailing" id="AQV-7N-fB5"/>
+                <constraint firstItem="1oT-JI-9p0" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Ej8-JC-o99"/>
+                <constraint firstAttribute="trailing" secondItem="e4F-4C-0R9" secondAttribute="trailing" id="EoK-hu-TEb"/>
+                <constraint firstAttribute="bottom" secondItem="1oT-JI-9p0" secondAttribute="bottom" id="NeM-co-knI"/>
+                <constraint firstItem="1oT-JI-9p0" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Orj-Hq-ERd"/>
+                <constraint firstItem="e4F-4C-0R9" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Tai-KN-Rey"/>
+                <constraint firstItem="4Eu-wk-kiK" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="abd-cr-a2Q"/>
+                <constraint firstAttribute="trailing" secondItem="4Eu-wk-kiK" secondAttribute="trailing" constant="5" id="dhm-yZ-I5Y"/>
+                <constraint firstItem="e4F-4C-0R9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="mba-jx-Bij"/>
+            </constraints>
+            <connections>
+                <outlet property="imageIV" destination="1oT-JI-9p0" id="E1n-Nl-DNp"/>
+                <outlet property="selBtn" destination="4Eu-wk-kiK" id="zQN-Vq-MJa"/>
+            </connections>
+            <point key="canvasLocation" x="180.5" y="227.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="SuPhoto_selected.png" width="24" height="24"/>
+        <image name="SuPhoto_unselected.png" width="24" height="24"/>
+    </resources>
+</document>
