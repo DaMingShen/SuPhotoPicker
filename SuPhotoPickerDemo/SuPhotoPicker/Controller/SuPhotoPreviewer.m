@@ -91,7 +91,7 @@
 
 - (void)refreshCompleteBtnStatus {
     if ([SuPhotoCenter shareCenter].selectedPhotos.count) {
-        self.sendCount.text = [NSString stringWithFormat:@"完成(%ld）",[SuPhotoCenter shareCenter].selectedPhotos.count];
+        self.sendCount.text = [NSString stringWithFormat:@"完成(%ld)",[SuPhotoCenter shareCenter].selectedPhotos.count];
     }else {
         self.sendCount.text = @"完成";
     }
